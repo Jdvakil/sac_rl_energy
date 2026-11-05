@@ -1,0 +1,18 @@
+{
+  "is_success": true,
+  "violation": false,
+  "work_j": 0.4947162605991423,
+  "peak_force_n": 14.147539181069016,
+  "goal_error_m": 0.00536921844804597,
+  "phase": 3,
+  "proposal": {
+    "emin_j": 0.24072733670473098,
+    "emax_j": 1.93561596551304,
+    "contact_y_m": 0.004004060626029968
+  },
+  "contact_point_block_m": [
+    -0.035,
+    0.004004060626029968,
+    0.0
+  ]
+}

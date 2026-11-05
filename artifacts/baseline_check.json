@@ -1,0 +1,967 @@
+{
+  "episodes": 50,
+  "successes": 34,
+  "success_rate": 0.68,
+  "success_ci95": [
+    0.5330061598852693,
+    0.8047958053371607
+  ],
+  "violations": 0,
+  "mean_work_j": 0.33507110764609893,
+  "max_force_n": 13.344898117238852,
+  "ood": false,
+  "seed_start": 100000,
+  "episodes_detail": [
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.27224510066513147,
+      "peak_force_n": 10.322216278003381,
+      "goal_error_m": 0.012744963008946925,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100000,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.5384733833218878,
+      "peak_force_n": 13.344898117238852,
+      "goal_error_m": 0.010012189807689087,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100001,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.5901843347235921,
+      "peak_force_n": 12.615181110123451,
+      "goal_error_m": 0.0008085530944035579,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100002,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.272692207757368,
+      "peak_force_n": 10.91021497311491,
+      "goal_error_m": 0.012794142660731811,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100003,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.2584601783706915,
+      "peak_force_n": 10.386390551683021,
+      "goal_error_m": 0.013852666122870644,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100004,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.49920735011594447,
+      "peak_force_n": 12.672710970978734,
+      "goal_error_m": 0.004533537451563985,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100005,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.507361839045287,
+      "peak_force_n": 11.93504461831356,
+      "goal_error_m": 0.003568779714991227,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100006,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.37559601547929594,
+      "peak_force_n": 12.679088640060733,
+      "goal_error_m": 0.009588095799570845,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100007,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.4987526037261702,
+      "peak_force_n": 12.143602897935237,
+      "goal_error_m": 0.004855185846409399,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100008,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3542275099375711,
+      "peak_force_n": 11.594529523294982,
+      "goal_error_m": 0.013115893486190744,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100009,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.34282702849740476,
+      "peak_force_n": 11.755307929663617,
+      "goal_error_m": 0.014142674300839458,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100010,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.21257211207697785,
+      "peak_force_n": 10.33098745552602,
+      "goal_error_m": 0.022124943932883195,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100011,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.13143012291228595,
+      "peak_force_n": 9.927079414305624,
+      "goal_error_m": 0.024602611643120303,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100012,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.36549239520835,
+      "peak_force_n": 11.800199543759932,
+      "goal_error_m": 0.012904382715919677,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100013,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3917535630058357,
+      "peak_force_n": 11.812686867460432,
+      "goal_error_m": 0.010036332098374734,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100014,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.4497660883866167,
+      "peak_force_n": 12.51817337412814,
+      "goal_error_m": 0.004290806871376257,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100015,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.5508602364708444,
+      "peak_force_n": 12.767127914676239,
+      "goal_error_m": 0.00048258977104673195,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100016,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3993989126124334,
+      "peak_force_n": 11.615801828535629,
+      "goal_error_m": 0.009614988442982031,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100017,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3861665667493877,
+      "peak_force_n": 11.298808666959657,
+      "goal_error_m": 0.007656772722891253,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100018,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.2899631003352579,
+      "peak_force_n": 10.657352404990545,
+      "goal_error_m": 0.012085482566088629,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100019,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.24479779991015221,
+      "peak_force_n": 11.003813775145048,
+      "goal_error_m": 0.021386595888685078,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100020,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.5021661453071203,
+      "peak_force_n": 11.823190782672613,
+      "goal_error_m": 0.0041275680382689695,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100021,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3916351551968053,
+      "peak_force_n": 11.140990385819356,
+      "goal_error_m": 0.007776037956974652,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100022,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.217550301702121,
+      "peak_force_n": 10.203322868127843,
+      "goal_error_m": 0.019661828029525125,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100023,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.4388475890206607,
+      "peak_force_n": 11.65765396512039,
+      "goal_error_m": 0.005730553577042247,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100024,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.15952538884965847,
+      "peak_force_n": 9.855003450501084,
+      "goal_error_m": 0.019554373218361426,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100025,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.2430540825518089,
+      "peak_force_n": 10.596091033299826,
+      "goal_error_m": 0.014066572422854862,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100026,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.2400092686457516,
+      "peak_force_n": 10.750063927570622,
+      "goal_error_m": 0.018422730588519426,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100027,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.2404114288042991,
+      "peak_force_n": 10.96002764350468,
+      "goal_error_m": 0.021134657529123857,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100028,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.23738312855255989,
+      "peak_force_n": 10.526882710720496,
+      "goal_error_m": 0.019310777011215335,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100029,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.24880979776662465,
+      "peak_force_n": 10.527869487473485,
+      "goal_error_m": 0.01718893381889744,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100030,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.31519035336729273,
+      "peak_force_n": 11.48942924794416,
+      "goal_error_m": 0.014265190079389811,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100031,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.26740264373356076,
+      "peak_force_n": 11.144466817300824,
+      "goal_error_m": 0.019541527218144727,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100032,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.2475275890113321,
+      "peak_force_n": 10.4956442032302,
+      "goal_error_m": 0.017643402907375344,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100033,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.4204873047865167,
+      "peak_force_n": 12.02729279664151,
+      "goal_error_m": 0.010141901496029365,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100034,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.28371748586426493,
+      "peak_force_n": 10.362209568462971,
+      "goal_error_m": 0.011498402732530333,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100035,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.19939553152090134,
+      "peak_force_n": 11.1771241548976,
+      "goal_error_m": 0.023974855505327047,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100036,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.2168743949259641,
+      "peak_force_n": 10.72007576788192,
+      "goal_error_m": 0.018361703826609427,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100037,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3434696877054947,
+      "peak_force_n": 11.985294446735095,
+      "goal_error_m": 0.010650958792265075,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100038,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.272333651638357,
+      "peak_force_n": 10.286264010258385,
+      "goal_error_m": 0.012138682682090507,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100039,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.4093441212181327,
+      "peak_force_n": 12.331080452091697,
+      "goal_error_m": 0.005605233823914008,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100040,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.3180348729616867,
+      "peak_force_n": 11.553067536005797,
+      "goal_error_m": 0.01458009848196884,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100041,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.28201513739783207,
+      "peak_force_n": 11.008124980706395,
+      "goal_error_m": 0.016525409195791763,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100042,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.35152734840597866,
+      "peak_force_n": 11.76744046078114,
+      "goal_error_m": 0.013481673667080224,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100043,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.17405569945924937,
+      "peak_force_n": 10.722927475266603,
+      "goal_error_m": 0.024271681693373903,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100044,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.2579629984808141,
+      "peak_force_n": 11.012967158705912,
+      "goal_error_m": 0.013927440343463632,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100045,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.585053995483791,
+      "peak_force_n": 13.286876281680717,
+      "goal_error_m": 0.0010358051669956125,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100046,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.2946711084353067,
+      "peak_force_n": 10.81264127641732,
+      "goal_error_m": 0.012443018445637083,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100047,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": false,
+      "violation": false,
+      "work_j": 0.21109017920459044,
+      "peak_force_n": 10.135126345513783,
+      "goal_error_m": 0.018022456508146795,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100048,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.45178054299798204,
+      "peak_force_n": 11.86646899137226,
+      "goal_error_m": 0.007231170943480025,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.4880000011622906,
+        "emax_j": 1.6270000002905727,
+        "contact_y_m": 0.0
+      },
+      "seed": 100049,
+      "contact_point_block_m": [
+        -0.035,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "policy": "baseline"
+}

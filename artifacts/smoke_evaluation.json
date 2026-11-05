@@ -1,0 +1,113 @@
+{
+  "episodes": 5,
+  "successes": 5,
+  "success_rate": 1.0,
+  "success_ci95": [
+    0.47817624989501856,
+    1.0
+  ],
+  "violations": 0,
+  "mean_work_j": 0.3698802036377776,
+  "max_force_n": 10.264027273800798,
+  "ood": false,
+  "seed_start": 100000,
+  "episodes_detail": [
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.26047055642944983,
+      "peak_force_n": 7.928785955261896,
+      "goal_error_m": 0.0038853940932290776,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.28096741706132894,
+        "emax_j": 1.2812847979229813,
+        "contact_y_m": 0.001518220603466034
+      },
+      "seed": 100000,
+      "contact_point_block_m": [
+        -0.035,
+        0.001518220603466034,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.5319020014265506,
+      "peak_force_n": 10.264027273800798,
+      "goal_error_m": 0.013659788387627492,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.2799009108543396,
+        "emax_j": 1.2861530924199116,
+        "contact_y_m": 0.001739082522690296
+      },
+      "seed": 100001,
+      "contact_point_block_m": [
+        -0.035,
+        0.001739082522690296,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.5502329443783393,
+      "peak_force_n": 9.720118162040682,
+      "goal_error_m": 0.010909919041597521,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.28023644089698796,
+        "emax_j": 1.2856610566176028,
+        "contact_y_m": 0.0016833758354187012
+      },
+      "seed": 100002,
+      "contact_point_block_m": [
+        -0.035,
+        0.0016833758354187012,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.2601469277976879,
+      "peak_force_n": 8.361927832698058,
+      "goal_error_m": 0.003641593761975148,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.28052399158477787,
+        "emax_j": 1.2816759304134377,
+        "contact_y_m": 0.001548890769481659
+      },
+      "seed": 100003,
+      "contact_point_block_m": [
+        -0.035,
+        0.001548890769481659,
+        0.0
+      ]
+    },
+    {
+      "is_success": true,
+      "violation": false,
+      "work_j": 0.24664858815686058,
+      "peak_force_n": 7.9694898651413375,
+      "goal_error_m": 0.004552689257088155,
+      "phase": 3,
+      "proposal": {
+        "emin_j": 0.2807319137454033,
+        "emax_j": 1.2811760104090584,
+        "contact_y_m": 0.0015069540962576865
+      },
+      "seed": 100004,
+      "contact_point_block_m": [
+        -0.035,
+        0.0015069540962576865,
+        0.0
+      ]
+    }
+  ],
+  "policy": "sac",
+  "checkpoint_sha256": "098469c45951c64c50fc6c0b009700bf2d726d4ae848404d0ea7df833d0b1480"
+}

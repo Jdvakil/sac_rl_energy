@@ -1,0 +1,38 @@
+<mujoco model="CERG probing bench">
+  <compiler angle="radian"/>
+  <option timestep="0.002" integrator="implicitfast" cone="elliptic"/>
+  <visual><global offwidth="960" offheight="640"/><headlight ambient=".5 .5 .5"/></visual>
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".18 .23 .28" rgb2=".23 .29 .34" width="256" height="256"/>
+    <material name="surface" texture="grid" texrepeat="8 6" reflectance=".12"/>
+    <!-- ROBOHIVE_TABLE_MESH -->
+  </asset>
+  <default><geom solref=".01 1" solimp=".95 .99 .001" friction=".4 .005 .0001"/></default>
+  <worldbody>
+    <light pos="0 -.2 2" dir="0 0 -1"/>
+    <camera name="overview" pos=".65 -.85 1.1" xyaxes=".8 .6 0 -.42 .56 .714"/>
+    <camera name="top" pos=".05 0 1.6" xyaxes="1 0 0 0 1 0"/>
+    <geom name="table" type="box" pos="0 0 -.035" size=".65 .4 .035" material="surface"/>
+    <!-- ROBOHIVE_TABLE_VISUAL -->
+    <geom type="plane" size="3 3 .1" pos="0 0 -.76" rgba=".09 .12 .16 1"/>
+    <site name="goal" type="box" pos=".18 0 .001" size=".025 .07 .001" rgba=".2 .9 .4 .4"/>
+    <body name="block" pos="0 0 .025">
+      <joint name="block_x" type="slide" axis="1 0 0" damping="0"/>
+      <joint name="block_y" type="slide" axis="0 1 0" damping="0"/>
+      <joint name="block_z" type="slide" axis="0 0 1" damping="0"/>
+      <joint name="block_yaw" type="hinge" axis="0 0 1" damping=".002"/>
+      <geom name="block_geom" type="box" size=".035 .045 .025" mass=".5" rgba=".95 .48 .12 1"/>
+      <site type="sphere" pos=".025 0 .026" size=".004" rgba="1 1 1 1"/>
+    </body>
+    <body name="pusher" pos="-.058 0 .026">
+      <joint name="pusher_x" type="slide" axis="1 0 0" damping=".2"/>
+      <joint name="pusher_y" type="slide" axis="0 1 0" damping=".2"/>
+      <geom name="pusher_geom" type="cylinder" size=".012 .025" mass=".15" rgba=".15 .65 1 1"/>
+      <geom type="capsule" fromto="0 0 .025 0 0 .19" size=".007" contype="0" conaffinity="0" mass=".01" rgba=".65 .75 .85 1"/>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor name="push_x" joint="pusher_x" ctrllimited="true" ctrlrange="-12 12" forcelimited="true" forcerange="-12 12"/>
+    <motor name="push_y" joint="pusher_y" ctrllimited="true" ctrlrange="-12 12" forcelimited="true" forcerange="-12 12"/>
+  </actuator>
+</mujoco>

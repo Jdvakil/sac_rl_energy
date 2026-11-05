@@ -1,0 +1,11 @@
+{
+  "steps": 100000,
+  "seed": 0,
+  "device": "cpu",
+  "run_dir": "runs/sac_seed0",
+  "resume": null,
+  "warmup": 1500,
+  "eval_every": 3000,
+  "eval_episodes": 30,
+  "threads": 1
+}

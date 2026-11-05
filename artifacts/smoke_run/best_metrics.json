@@ -1,0 +1,15 @@
+{
+  "episodes": 3,
+  "successes": 3,
+  "success_rate": 1.0,
+  "success_ci95": [
+    0.29240177382128674,
+    1.0
+  ],
+  "violations": 0,
+  "mean_work_j": 0.4063991007624121,
+  "max_force_n": 10.209730235310824,
+  "ood": false,
+  "seed_start": 50000,
+  "step": 300
+}

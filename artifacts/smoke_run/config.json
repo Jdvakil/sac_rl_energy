@@ -1,0 +1,11 @@
+{
+  "steps": 300,
+  "seed": 0,
+  "device": "cpu",
+  "run_dir": "artifacts/smoke_run",
+  "resume": null,
+  "warmup": 256,
+  "eval_every": 300,
+  "eval_episodes": 3,
+  "threads": 1
+}

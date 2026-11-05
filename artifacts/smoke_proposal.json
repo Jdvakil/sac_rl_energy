@@ -1,0 +1,19 @@
+{
+  "Emin_J": 0.27981554061174396,
+  "Emax_J": 1.2818955571780484,
+  "contact_point_block_m": [
+    -0.035,
+    0.0015959423035383224,
+    0.0
+  ],
+  "policy_success_ci95": [
+    0.47817624989501856,
+    1.0
+  ],
+  "empirical_reliability_gate_passed": false,
+  "controller": "work_budget_surrogate",
+  "requires_cerg_energy_semantics_validation": true,
+  "checkpoint_sha256": "098469c45951c64c50fc6c0b009700bf2d726d4ae848404d0ea7df833d0b1480",
+  "seed": 200000,
+  "note": "Confidence is for average success under the test distribution, not this contact or hardware safety."
+}
